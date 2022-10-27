@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@200;400&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b4d6d7;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 350px;
+  min-height: 390px;
+  background-color: #fff;
+  box-shadow: -9px 0px 22px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+}
+.box .box-header {
+  text-align: center;
+}
+.qrcode {
+  margin-top: 20px;
+}
+.box .box-header h2 {
+  color: #221e70;
+}
+
+.box .box-header {
+  border-bottom: 1px solid gainsboro;
+}
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-content input {
+  margin-top: 20px;
+  height: 30px;
+  width: 280px;
+  border-radius: 10px;
+  padding: 15px;
+  border: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.box-content input:focus {
+  outline: none;
+}
